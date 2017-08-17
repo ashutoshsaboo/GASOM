@@ -10,17 +10,17 @@ GASOM: Genetic Algorithm assisted Architecture Learning in Self Organizing Maps
 
 ## Setup-:
 
-	1. pip install -r requirements.txt
-	2. Edit the params : datasetpath, number_of_columns_csv, features, dataset_name, type_of_problem, data
-	(Change data numpy array, so that, data contains only the relevant features, without the tags and indices)
-	3. python train.py > dataset.log (This gives the best possible SOM Map Size for your dataset)
-	4. Results will be present in dataset_name folder in cwd, along with final stats in dataset.log file. 
-	5. python generate_error_plot.py <pickle file in dataset_name folder> <dataset_name> (Error plot is generated)
-	6. Visualise the results 
+1. pip install -r requirements.txt
+2. Edit the params : datasetpath, number_of_columns_csv, features, dataset_name, type_of_problem, data
+(Change data numpy array, so that, data contains only the relevant features, without the tags and indices)
+3. python train.py > dataset.log (This gives the best possible SOM Map Size for your dataset)
+4. Results will be present in dataset_name folder in cwd, along with final stats in dataset.log file. 
+5. python generate_error_plot.py <pickle file in dataset_name folder> <dataset_name> (Error plot is generated)
+6. Visualise the results 
 
 ## Data sets used for testing our Model-:
 
-* Commercial Data sets used-:
+* Real World Data sets used-:
 	 
    1. Wine
    2. Iris
@@ -29,7 +29,7 @@ GASOM: Genetic Algorithm assisted Architecture Learning in Self Organizing Maps
    5. Glass Identification
    6. Sonar
 
-* Synthetic (Self-Made) Data sets used-:
+* Synthetic Data sets used-:
  
    1. Corner
    2. CrescentFullMoon
