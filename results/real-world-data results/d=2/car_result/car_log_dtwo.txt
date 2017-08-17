@@ -1,0 +1,119 @@
+(1728, 6)
+('/home/tirtharaj/SOP-AnantAndAshutosh/new/SOMPY/car_result_dtwo', 'folder created')
+Current generation: 0
+7.226713e-01
+Current generation: 1
+7.226713e-01
+Current generation: 2
+7.226713e-01
+Current generation: 3
+7.226713e-01
+Current generation: 4
+7.226713e-01
+Current generation: 5
+7.226713e-01
+Current generation: 6
+7.226713e-01
+Current generation: 7
+7.226713e-01
+Current generation: 8
+7.226713e-01
+Current generation: 9
+7.226713e-01
+[13, 19] 1.4453425558 0.0
+[13, 19] 1.4453425558 0.0
+[13, 19] 1.4453425558 0.0
+[13, 19] 1.4453425558 0.0
+[13, 19] 1.4453425558 0.0
+[13, 19] 1.4453425558 0.0
+[13, 19] 1.4453425558 0.0
+[13, 19] 1.4453425558 0.0
+[13, 19] 1.4453425558 0.0
+[13, 19] 1.4453425558 0.0
+[13, 19] 1.4453425558 0.0
+[13, 19] 1.4453425558 0.0
+[13, 19] 1.4453425558 0.0
+[13, 19] 1.4453425558 0.0
+[13, 19] 1.4453425558 0.0
+[13, 19] 1.4453425558 0.0
+[13, 19] 1.4453425558 0.0
+[13, 19] 1.4453425558 0.0
+[13, 19] 1.4453425558 0.0
+[13, 19] 1.4453425558 0.0
+[13, 19] 1.4453425558 0.0
+[13, 19] 1.4453425558 0.0
+[13, 19] 1.4453425558 0.0
+[13, 19] 1.4453425558 0.0
+[13, 19] 1.4453425558 0.0
+[13, 19] 1.4453425558 0.0
+[13, 19] 1.4453425558 0.0
+[13, 19] 1.4453425558 0.0
+[13, 19] 1.4453425558 0.0
+[13, 19] 1.4453425558 0.0
+[13, 1] 1.88803720863 0.0
+[13, 19] 1.4453425558 0.0
+[13, 19] 1.4453425558 0.0
+[13, 19] 1.4453425558 0.0
+[13, 19] 1.4453425558 0.0
+[13, 19] 1.4453425558 0.0
+[13, 1] 1.88803720863 0.0
+[13, 19] 1.4453425558 0.0
+[13, 19] 1.4453425558 0.0
+[13, 19] 1.4453425558 0.0
+[13, 19] 1.4453425558 0.0
+[13, 1] 1.88803720863 0.0
+[16, 1] 1.83653136207 0.0
+[13, 19] 1.4453425558 0.0
+[13, 19] 1.4453425558 0.0
+[13, 11] 1.69651919319 0.333333333333
+[13, 19] 1.4453425558 0.0
+[16, 19] 1.67455442939 0.0
+[13, 29] 1.70160375437 0.0
+[13, 1] 1.88803720863 0.0
+[16, 11] 1.43444773404 0.458333333333
+[13, 19] 1.4453425558 0.0
+[18, 3] 1.75029149108 0.0
+[23, 1] 1.75056018539 0.0
+[13, 29] 1.70160375437 0.0
+- GenomeBase
+	Score:			 0.722671
+	Fitness:		 0.722671
+
+	Params:		 {'rangemax': 30, 'rangemin': 1}
+
+	Slot [Evaluator] (Count: 1)
+		Name: eval_func - Weight: 0.50
+	Slot [Initializator] (Count: 1)
+		Name: G1DListInitializatorInteger - Weight: 0.50
+		Doc:  Integer initialization function of G1DList
+
+   This initializator accepts the *rangemin* and *rangemax* genome parameters.
+
+   
+	Slot [Mutator] (Count: 1)
+		Name: G1DListMutatorSwap - Weight: 0.50
+		Doc:  The mutator of G1DList, Swap Mutator
+   
+   .. note:: this mutator is :term:`Data Type Independent`
+
+   
+	Slot [Crossover] (Count: 1)
+		Name: G1DListCrossoverSinglePoint - Weight: 0.50
+		Doc:  The crossover of G1DList, Single Point
+
+   .. warning:: You can't use this crossover method for lists with just one element.
+
+   
+
+- G1DList
+	List size:	 2
+	List:		 [13, 19]
+
+
+(1728, 6)
+[13, 19]
+Optimal Map Size:  [13, 19]
+Optimal AQE:  1.15489638755
+Optimal TE:  0.238425925926
+Optimal Mean of AQE and TE:  0.696661156736
+Density:  6.995951417

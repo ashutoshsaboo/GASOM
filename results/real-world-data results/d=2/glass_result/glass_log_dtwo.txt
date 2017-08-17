@@ -1,0 +1,118 @@
+(214, 9)
+('/home/tirtharaj/SOP-AnantAndAshutosh/new/SOMPY/glass_result_dtwo', 'folder created')
+Current generation: 0
+4.746934e-01
+Current generation: 1
+4.746934e-01
+Current generation: 2
+4.746934e-01
+Current generation: 3
+4.746934e-01
+Current generation: 4
+4.746934e-01
+Current generation: 5
+4.746934e-01
+Current generation: 6
+4.746934e-01
+Current generation: 7
+4.746934e-01
+Current generation: 8
+4.746934e-01
+Current generation: 9
+4.746934e-01
+[11, 11] 0.94938682862 0.0
+[11, 11] 0.94938682862 0.0
+[11, 11] 0.94938682862 0.0
+[11, 7] 1.08737898592 0.0
+[11, 7] 1.08737898592 0.0
+[11, 11] 0.94938682862 0.0
+[11, 11] 0.94938682862 0.0
+[11, 11] 0.94938682862 0.0
+[11, 11] 0.94938682862 0.0
+[3, 7] 1.48752545829 0.0
+[3, 11] 1.34733620446 0.0
+[11, 7] 1.08737898592 0.0
+[11, 11] 0.94938682862 0.0
+[11, 11] 0.94938682862 0.0
+[3, 11] 1.34733620446 0.0
+[11, 7] 1.08737898592 0.0
+[11, 7] 1.08737898592 0.0
+[11, 11] 0.94938682862 0.0
+[11, 11] 0.94938682862 0.0
+[3, 11] 1.34733620446 0.0
+[10, 7] 1.10534993364 0.0
+[11, 7] 1.08737898592 0.0
+[11, 7] 1.08737898592 0.0
+[11, 11] 0.94938682862 0.0
+[3, 7] 1.48752545829 0.0
+[3, 7] 1.48752545829 0.0
+[3, 11] 1.34733620446 0.0
+[11, 7] 1.08737898592 0.0
+[11, 11] 0.94938682862 0.0
+[3, 7] 1.48752545829 0.0
+[3, 11] 1.34733620446 0.0
+[11, 7] 1.08737898592 0.0
+[10, 11] 0.98959991317 0.0
+[11, 11] 0.94938682862 0.0
+[3, 11] 1.34733620446 0.0
+[3, 11] 1.34733620446 0.0
+[11, 7] 1.08737898592 0.0
+[10, 11] 0.98959991317 0.0
+[11, 11] 0.94938682862 0.0
+[3, 11] 1.34733620446 0.0
+[10, 7] 1.10534993364 0.0
+[10, 7] 1.10534993364 0.0
+[11, 7] 1.08737898592 0.0
+[11, 11] 0.94938682862 0.0
+[3, 3] 2.00434371093 0.0
+[10, 3] 1.37416438788 0.0
+[3, 11] 1.34733620446 0.0
+[11, 7] 1.08737898592 0.0
+[10, 7] 1.10534993364 0.0
+[3, 7] 1.48752545829 0.0
+[1, 4] 2.13728178345 0.0
+[3, 3] 2.00434371093 0.0
+[10, 3] 1.37416438788 0.0
+[11, 11] 0.94938682862 0.0
+- GenomeBase
+	Score:			 0.474693
+	Fitness:		 0.464068
+
+	Params:		 {'rangemax': 11, 'rangemin': 1}
+
+	Slot [Evaluator] (Count: 1)
+		Name: eval_func - Weight: 0.50
+	Slot [Initializator] (Count: 1)
+		Name: G1DListInitializatorInteger - Weight: 0.50
+		Doc:  Integer initialization function of G1DList
+
+   This initializator accepts the *rangemin* and *rangemax* genome parameters.
+
+   
+	Slot [Mutator] (Count: 1)
+		Name: G1DListMutatorSwap - Weight: 0.50
+		Doc:  The mutator of G1DList, Swap Mutator
+   
+   .. note:: this mutator is :term:`Data Type Independent`
+
+   
+	Slot [Crossover] (Count: 1)
+		Name: G1DListCrossoverSinglePoint - Weight: 0.50
+		Doc:  The crossover of G1DList, Single Point
+
+   .. warning:: You can't use this crossover method for lists with just one element.
+
+   
+
+- G1DList
+	List size:	 2
+	List:		 [11, 11]
+
+
+(214, 9)
+[11, 11]
+Optimal Map Size:  [11, 11]
+Optimal AQE:  0.93991377223
+Optimal TE:  0.0
+Optimal Mean of AQE and TE:  0.469956886115
+Density:  1.76859504132

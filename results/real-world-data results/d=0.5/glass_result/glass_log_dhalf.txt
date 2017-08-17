@@ -1,0 +1,119 @@
+(214, 9)
+('/home/tirtharaj/SOP-AnantAndAshutosh/new/SOMPY/glass_result_dhalf', 'folder created')
+Current generation: 0
+3.533537e-01
+Current generation: 1
+3.345424e-01
+Current generation: 2
+3.345424e-01
+Current generation: 3
+3.345424e-01
+Current generation: 4
+3.345424e-01
+Current generation: 5
+3.345424e-01
+Current generation: 6
+3.345424e-01
+Current generation: 7
+3.345424e-01
+Current generation: 8
+3.345424e-01
+Current generation: 9
+3.345424e-01
+[20, 13] 0.669084788251 0.0
+[20, 13] 0.669084788251 0.0
+[20, 13] 0.669084788251 0.0
+[20, 13] 0.669084788251 0.0
+[20, 13] 0.669084788251 0.0
+[20, 13] 0.669084788251 0.0
+[20, 13] 0.669084788251 0.0
+[20, 13] 0.669084788251 0.0
+[20, 13] 0.669084788251 0.0
+[20, 13] 0.669084788251 0.0
+[20, 13] 0.669084788251 0.0
+[20, 13] 0.669084788251 0.0
+[20, 13] 0.669084788251 0.0
+[20, 13] 0.669084788251 0.0
+[20, 13] 0.669084788251 0.0
+[20, 13] 0.669084788251 0.0
+[20, 13] 0.669084788251 0.0
+[20, 13] 0.669084788251 0.0
+[20, 13] 0.669084788251 0.0
+[20, 13] 0.669084788251 0.0
+[20, 13] 0.669084788251 0.0
+[20, 13] 0.669084788251 0.0
+[20, 13] 0.669084788251 0.0
+[20, 13] 0.669084788251 0.0
+[20, 13] 0.669084788251 0.0
+[20, 13] 0.669084788251 0.0
+[14, 13] 0.794487630283 0.0
+[20, 13] 0.669084788251 0.0
+[20, 13] 0.669084788251 0.0
+[20, 13] 0.669084788251 0.0
+[14, 4] 1.16032903222 0.0
+[14, 4] 1.16032903222 0.0
+[20, 13] 0.669084788251 0.0
+[20, 13] 0.669084788251 0.0
+[20, 13] 0.669084788251 0.0
+[20, 4] 1.05914885259 0.0
+[14, 13] 0.794487630283 0.0
+[20, 13] 0.669084788251 0.0
+[20, 13] 0.669084788251 0.0
+[20, 13] 0.669084788251 0.0
+[14, 4] 1.16032903222 0.0
+[14, 4] 1.16032903222 0.0
+[14, 4] 1.16032903222 0.0
+[20, 12] 0.706707391673 0.0
+[20, 13] 0.669084788251 0.0
+[6, 12] 1.09908216628 0.196261682243
+[2, 13] 1.42030070487 0.0
+[20, 4] 1.05914885259 0.0
+[14, 12] 0.834905676048 1.0
+[20, 13] 0.669084788251 0.0
+[19, 1] 1.36008144015 0.995327102804
+[6, 4] 1.43923940739 0.0
+[2, 20] 1.25400652692 0.0
+[14, 13] 0.794487630283 0.0
+[20, 12] 0.706707391673 0.0
+- GenomeBase
+	Score:			 0.334542
+	Fitness:		 0.334542
+
+	Params:		 {'rangemax': 21, 'rangemin': 1}
+
+	Slot [Evaluator] (Count: 1)
+		Name: eval_func - Weight: 0.50
+	Slot [Initializator] (Count: 1)
+		Name: G1DListInitializatorInteger - Weight: 0.50
+		Doc:  Integer initialization function of G1DList
+
+   This initializator accepts the *rangemin* and *rangemax* genome parameters.
+
+   
+	Slot [Mutator] (Count: 1)
+		Name: G1DListMutatorSwap - Weight: 0.50
+		Doc:  The mutator of G1DList, Swap Mutator
+   
+   .. note:: this mutator is :term:`Data Type Independent`
+
+   
+	Slot [Crossover] (Count: 1)
+		Name: G1DListCrossoverSinglePoint - Weight: 0.50
+		Doc:  The crossover of G1DList, Single Point
+
+   .. warning:: You can't use this crossover method for lists with just one element.
+
+   
+
+- G1DList
+	List size:	 2
+	List:		 [20, 13]
+
+
+(214, 9)
+[20, 13]
+Optimal Map Size:  [20, 13]
+Optimal AQE:  0.665822448548
+Optimal TE:  0.0
+Optimal Mean of AQE and TE:  0.332911224274
+Density:  0.823076923077

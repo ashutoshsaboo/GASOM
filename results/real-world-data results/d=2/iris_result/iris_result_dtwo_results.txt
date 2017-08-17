@@ -1,0 +1,16 @@
+map size - [9, 9]
+quantization error - 0.357702939743
+topographic error - 0.0
+topographic error and quantization error average - 0.178851469872
+density - 1.85185185185
+HIT map - 
+3 6 4 4 3 6 2 3 5 
+1 3 0 1 1 3 1 1 2 
+1 0 0 0 0 0 0 0 0 
+4 0 1 5 1 0 1 2 2 
+2 2 4 1 3 3 3 1 2 
+3 2 1 2 0 2 1 1 3 
+2 0 0 2 2 1 1 4 5 
+0 0 4 1 1 0 2 0 0 
+4 2 1 2 4 0 4 3 3 
+
